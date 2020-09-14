@@ -1,0 +1,24 @@
+/*
+CSS = Cascading Style Sheet
+    CSS Parts:
+    Selector
+    Rules: property & value
+ */
+ body{
+     background-color: cyan;
+    }
+ /* body = selector , backfround-color = property, cyan= value*/
+
+p{
+    color: purple;
+    font-size: 75px;
+}
+
+#FirstDiv {
+    background-color: black;
+    margin: 10px;
+}
+
+#dolphin{
+    background-color: yellow;
+}
