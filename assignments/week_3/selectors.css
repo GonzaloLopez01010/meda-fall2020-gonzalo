@@ -1,0 +1,43 @@
+/*
+ID and Class naming rules:
+Dont start a number
+Dontnot use special characters
+Dont use spaces
+Dont use a capital letter
+Id have to be unique to each webpage.*/
+
+
+
+body{
+    font-family:"Arial";
+    background-color:pink;
+
+}
+#first{
+    font-family: "Courier";
+}
+#special{
+    color:red;
+}
+.different{
+    font-family:"Verdana"
+}
+.green{
+    color:green;
+    background-color:lightgreen;
+}
+p{
+    font-family:"Lucidia Console";
+}
+#margin{
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#paddings{
+    padding-left: 50px ;
+    padding-right: 100px;
+    padding-top: 25px; 
+    padding-bottom: 10px;
+}
