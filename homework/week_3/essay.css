@@ -1,0 +1,30 @@
+#firstdiv {
+    width:auto;
+    height:auto;
+    background-color:skyblue ;
+    font-size:20px;
+    font-family:"Courier New";
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+
+#seconddiv{
+    width:671px;
+    height:138px;
+    background-color:lightsalmon;
+    font-size:20px;
+    font-family:"Helvetica";
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-left:20px;
+    padding-right:20px;
+
+
+}
