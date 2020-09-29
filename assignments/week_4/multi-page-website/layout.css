@@ -50,13 +50,13 @@ main {
     color:darkgreen;
 }
 #about p{
-    color: fuchsia;
+    color: blue;
 }
 #about h1{
-    color:fuchsia;
+    color:green;
 }
 #about h2{
-    color:fuchsia;
+    color:green;
 }
 footer {
     height: 50px;
