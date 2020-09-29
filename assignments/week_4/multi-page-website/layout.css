@@ -22,17 +22,16 @@ body{
 }
 
 #container header nav ul li {
-    border-width: 1px;
     background-color: green;
     display: inline-block;
     border-radius:5px;
 }
 
 #container header nav ul li a{
-    border-width:1px;
     font-family: Arial;
     line-height: 32px;
     display:inline-block;
+    height:32px;
     padding-left: 10px;
     padding-right: 10px;
     color:white;
