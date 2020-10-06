@@ -52,7 +52,7 @@ for (var i = 0; i < 10; i = i + 1 ) {
         break;
     }
 }
-
+//Continue, once the continue keyword is executated,
 for (var i = 0; i < 10; i = i + 1 ) {
     if (true) {
         continue;
