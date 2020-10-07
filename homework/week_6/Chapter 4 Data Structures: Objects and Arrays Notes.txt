@@ -1,0 +1,3 @@
+	▪	Data Structures are built from numbers, booleans and strings
+	▪	Objects let us group values or other objects together 
+	▪	Arrays:  Are a data type , which store sequences of values separated by commas.
