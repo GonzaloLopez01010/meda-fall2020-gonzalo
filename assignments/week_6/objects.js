@@ -87,13 +87,13 @@ var specialObject = {
     someData: "Hello there"
 };
 
-// Runs the funcrrtion stored in the key "doSomeWork" isnide of SpecialObject object.
+// Runs the funcrtion stored in the key "doSomeWork" isnide of SpecialObject object.
 specialObject.doSomeWork();
 console.log();
 myEmployees.length;
 
-// An object's Property holds data (that belongs to that object). 
-// An object's Method holds a function (that belongs to that object).
+// An object's Property holds data (that belongs to that object). Properties are just Variables that are held by an object.
+// An object's Method holds a function (that belongs to that object).Methods are just functions that are held by an object. 
 
 var myArray2 = [
     100,
