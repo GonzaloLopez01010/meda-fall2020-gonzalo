@@ -1,32 +1,67 @@
 
 ABOUT ME PAGE
 
-(write about goals, experience, current skills )
+
+portrait.jpg will go here 
+
+My name is Gonzalo Lopez and I am currently enrolled in a web design coding bootcamp. My current skills include basic html and ccs knowledge along with some understanding of JavaScript essentials. I'm also developing my hard and soft skills with online courses. This is my first working with programming languages and learning to program.
 
 
-The next step I will take towards my career goal will be enrolling into CCSF to pursue a Computer Science Degree. Once I complete my 2 years at CCSF I plan to continue my education at a 4 year college in order to complete my Bachelor's Degree. While I'm attending college I will expand my network by attending events and making close connections with peers.
-  
+After completing the bootcamp I plan to continue self studying and enrolling into CCSF to pursue a Computer Science Degree. Once I complete my 2 years at CCSF I plan to continue my education at a 4 year college in order to complete my Bachelor's Degree. While I'm attending college I will expand my network by attending events and making close connections with peers.
+
+
+COLORS AND TEXT: 
+
+Background color for header will be blanched almond. Color for the header text will be black. Color for body text will be green. The back ground color for the body will be light salmon. Color for the link text will be blue. Color for footer will be blanched almond. Color for footer text will be black.
+
+Font size for body text will be 18 px. Font size for header text will be 24px. Font size for footer text will be 18 px.
+
+
+LINKS TO EXAMPLE PORTFOLIOS:
 
 https://www.mikekus.com/
-Things I liked: 
+
+Things I like: 
 1) That the body section held each project in a square looking similar in size.
 2) Another thing I like is that you can see a range of more simple to complex projects.
 3) It's easy to tell what the the squares are holding.
 
-Things I don't like:
-1) I would have preferred the projects be organized by color when placed next to    eachother. 
+Things I didn't like:
+1) I would have preferred the projects be organized by color when placed next to each other. 
 2) There is no viewable bottom section for the home page 
-3) The colors take a bit away from the aesthetics of the portfolio. They are not consistent. 
+3) The colors take a bit away from the aesthetics of the portfolio. They are not consistent.In my opinion are not easy on the eyes. 
 
+http://www.hangar.co
+
+Things I like:
+1) The first thing you see are beautiful bright designs.
+2) I like that the website gives you enough time to observe a slide before it moves on to the next.
+3) I really enjoyed seeing the website show text being written and then deleted to write something else under the, Who We Are, area.
+
+Things I didn't like:
+1) The projects in the slideshow did not seem to follow a common theme.
+2) I would have liked to see the featured story part towards the top of the main section.
+3) Too much white at bottom of the webpage. I feel like it could pop out even more if there were different colors added.
+
+http://www.strategik.co.uk
+
+Things I like:
+1) I like how images were used in the background of a section to make it look less flat and give it depth.
+2) Its refreshing to see the developer give an illusion of a guy holding and focusing on the about Strategik block.
+3) I like how the small arrow buttons jump you to the next section when clicking on it.
+
+Things I didn't like:
+1) Colors used are plain to me.
+2) That the webpage drops in creativity the more it approaches the footer.
+3) They have an award winning design section yet mostly squares and blocks were used for the whole webpage.
 
 
 
 CONTACT PAGE
 
+For business opportunities I can be best be contacted at gonzalolopez.work@gmail.com.
 
-I can be contacted at xxxxxxxxxxx@gmail.com.
-
-The number you can best reach me at is (xxx)-xxx-xxxx.
+Provide a detailed description as to why you are contacting me and what you would like to explore and look at together.
 
 
 
@@ -35,3 +70,7 @@ The number you can best reach me at is (xxx)-xxx-xxxx.
 
 
 PROJECTS PAGE
+
+This is a dummy project. The purpose of this dummy project is to demonstrate how I would create a projects page if I had one.
+
+dummyimage.jpeg will go in here.
