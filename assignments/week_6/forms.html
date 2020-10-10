@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Forms</title>
+
+    <style> 
+    body {
+        background-color:skyblue;
+    }
+
+    form {
+       /* width: 600px;
+        text-align: right;
+        this will change everyting in the body to the right of the page */
+    }
+
+     form > input{
+        font-family:Arial;
+        font-size: 24px;
+        font-weight:bold;
+        background-color:lightsalmon;
+        color:peru;
+        border-color:peru;
+        border-style: solid;
+        border-width: 1px;
+        border-radius:6px;
+        padding: 12px;
+        margin: 10px;
+    
+    }
+
+    form > label {
+        font-family: Arial,;
+        font-size: 18px;
+        color:peru;
+    }
+
+    </style>
+
+</head>
+
+<body>
+
+<form>
+    <textarea disabled="disabled" cols="40"rows= "4" ></textarea><br />
+
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" /><br />
+
+    <label for="email">Email:</label>
+    <input type="email" id= "email" /><br />
+
+    <label for="password">Password:</label>
+    <input type="password" id= "password" /><br />
+
+    <label for="emaillist">Please send me many emails 
+    </label>
+
+    <input type="checkbox" id = "emaillist" /><br />
+
+    <label for= "favfood1">Salad</label>
+    <input type ="radio" name="food" id="favfood1" />
+
+    <label for= "favfood2">Chicken</label>
+    <input type ="radio" name="food" id="favfood2"/>
+
+    <label for= "favfood3">Pasta</label>
+    <input type ="radio" name="food" id="favfood3"
+    /><br />
+
+    <input type="reset" />
+
+    <input type="submit" />
+
+</form>
+
+</body>
+</html>

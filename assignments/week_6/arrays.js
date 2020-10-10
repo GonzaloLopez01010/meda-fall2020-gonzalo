@@ -1,26 +1,26 @@
-var myVar = 100;
+var myVar = 150;
 
-myVar = 200;
+myVar = 250;
 
-myVar = 100;
+myVar = 150;
 
-var weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+var daysOfTheWeek = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
 
 var months = [
-    "january",
-    "february",
-    "march"
-]
+    "september",
+    "october",
+    "november"
+];
 
-var mixedArray = [100, "hello there", true];
+var mixedArray = [150, "Hi", true];
 
-console.log(weekdays[0]);
+console.log(daysOfTheWeek[0]);
 
 console.log(mixedArray[4]);
 
 console.log (mixedArray);
 
-mixedArray[1] = "Hello there!";
+mixedArray[1] = "Hello world!";
 
 console.log(mixedArray);
 
@@ -36,8 +36,7 @@ var emptyArray = [];
 //Array Methods
 
 //Array push 
-
-emptyArray.push("this is the first item!");
+emptyArray.push("first item.");
 
 console.log(emptyArray);
 
@@ -58,17 +57,17 @@ emptyArray.pop();
 
 console.log(emptyArray);
 
-//Array Unshift
+//Array Unshift will add "madeupday" to the beggining of the daysOfTheWeek array 
 
-weekdays.unshift("superday");
+daysOfTheWeek.unshift("madeupday");
 
-console.log(weekdays);
+console.log(daysOfTheWeek);
 
-// Array Shift 
+// Array Shift  will remove a value at the beginning of the daysOfTheWeek array.
 
-weekdays.shift();
+daysOfTheWeek.shift();
 
-console.log(weekdays);
+console.log(daysOfTheWeek);
 
 
 // Array ForEach
@@ -76,30 +75,29 @@ console.log(weekdays);
 listOfItemsArray.forEach(function (eachItem) {
     use eachItem how ever you want
 }) */
-weekdays.forEach( function(weekday) {
-    console.log(weekday);
+daysOfTheWeek.forEach( function(weekdays) {
+    console.log(weekdays);
 } );
 
-// Loops and Arrays
+// Loops and Arrays shown are underneath 
 
-var setOfNumbers = [1, 10, 100, 1000, 10000,400, 399, 119, 39, 20, 300, 1993, 3920, 39];
+var setOfNumbers = [1, 5, 10, 200, 3000,50000, 199, 219, 42, 40, 500, 1997, 3280, 37];
 
-//console.log(setOfNumbers[0] *6);
-//console.log(setOfNumbers[1] *6);
-//console.log(setOfNumbers[2] *6);
+//console.log(setOfNumbers[0] *5); this will grab the 1 in the array and multiply it by 5
+//console.log(setOfNumbers[1] *5); this will grab the 5 in the array and multiply it by 5
+//console.log(setOfNumbers[2] *5); this will grab the 10 in the array and multiply it by 5
 
 for (var i = 0; i < setOfNumbers.length; i = i + 1) {
-    var product = setOfNumbers[i] * 6;
+    var product = setOfNumbers[i] * 5;
     console.log(product);
 }
 
-// Array within Array AKAmultidimensial array.
-
+// Below is an Array inside another Array, its called a   multidimensial array.
 var masterArray = [
-    [10, 29],
-    [14, 20],
-    [50, 12]
+    [20, 58],
+    [28, 40],
+    [100, 24]
 ];
 
 masterArray[1].length;
-(masterArray[2][0]); // This will grab the number 50 from the third array inside of this array 
+(masterArray[2][0]); // This will grab the number 100 from the third array inside of this array. The 2 will represnt the 3rd line and the 0 represents the first value inside that array.
