@@ -22,4 +22,10 @@ $(document).ready(function (){
         $("#thisBox").css("background-color", "yellow");
     });
 
+    var brownButton = $("#brown-button");
+
+    brownButton.click(function (){
+        $("#thisBox").css("background-color", "brown");
+    });
+
 });
