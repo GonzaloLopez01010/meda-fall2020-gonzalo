@@ -24,7 +24,10 @@ $(document).ready(function (){
     $("body").append(newHTMLCode);
 
     $("button#create-box").click(function() {
-        
+        $("h1").hide();
+        // .hide will hide the h1 elements visually on the webpage, but the code will still exist.
+        // .empty
+
         $("body").append(`<div style='width: 110px;
         height: 110px; border: 1px black solid;'></div>`
         );

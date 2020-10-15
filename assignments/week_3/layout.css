@@ -3,7 +3,7 @@
 #header{
     width: 700px;
     height: 200px;
-    background-color: blanchedalmond;
+    background-color: rgb(213, 154, 67);
     margin-left:auto;
     margin-right:auto;
 }
@@ -18,10 +18,9 @@
 #footer{
     width: 660px;
     height: 50px;
-    background-color: gray;
+    background-color: rgb(213, 154, 67);
     margin-left:auto;
     margin-right:auto;
-    padding:20px;
 }
 #sidebar{
     width: 150px;
@@ -36,7 +35,7 @@
     display: inline-block;
     vertical-align: top;
     padding:20px;
-    border:1px solid red;
+    border:1px solid yellow;
     
 }
 .gallery {
