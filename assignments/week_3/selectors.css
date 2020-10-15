@@ -7,37 +7,44 @@ Dont use a capital letter
 Id have to be unique to each webpage.*/
 
 
-
 body{
-    font-family:"Arial";
-    background-color:pink;
-
+    font-family: Arial; /*This affects the unique id because it doesnt have a font family. It also, changes the first h1 element in the html file because we have not given it a font family. */
+    background-color:burlywood;
 }
 #first{
-    font-family: "Courier";
+    font-family: verdana,; /*This only changes the first paragraphs font*/
 }
-#special{
-    color:red;
+#unique{
+    color:darkred;
 }
-.different{
-    font-family:"Verdana"
+.other{
+    font-family: cursive ; /* This changes text for paragraph 3 and 3rd h1 element. This will also affect the second paragrah because the font Impact gets overwriten..*/
 }
 .green{
-    color: blue;
-    background-color:lightgreen;
+    color: black;
+    background-color:whitesmoke;
+    /* This will affect the second paragraph*/
 }
 p{
-    font-family:"Lucidia Console";
+    font-family: sans-serif; 
 }
 #margin{
     margin-left: 50px;
-    margin-right: 100px;
-    margin-top: 25px;
-    margin-bottom: 10px; 
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px; 
+    padding-bottom: 10px; 
 }
 #paddings{
-    padding-left: 50px;
-    padding-right: 100px;
-    padding-top: 25px; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px; 
     padding-bottom: 10px;
 }
