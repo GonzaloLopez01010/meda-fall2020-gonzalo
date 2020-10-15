@@ -11,36 +11,38 @@ CSS = Cascading Style Sheet
   cyan= value */
 
 p{
-    color: purple;
-    font-size: 50px;
+    color: black;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 18px;
 }
 
-#FirstDiv {
-    background-color: black;
+#Thefirstdiv {
+    background-color:orange;
     margin: 10px;
 }
 
 #dolphin{
-    background-color: yellow;
+    background-color:orange;
 }
 
 /* This box is exactly 300 pixels wide
 becayse we add the width, borders for each side,
 and paddings together to end up with 300 pixels. */
 
-.Box {
-    width: 300px;
-    height: 300px;
+.A_box {
+    width: 262px;
+    height: 294px;
     background-color: cornsilk;
     border-style: solid;
-    border-width: 5px;
-    border-color:purple;
-    margin-top: 50px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-bottom:25px;
-    padding-left:12px;
-
+    border-width: 3px;
+    border-color: gray;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    padding-left: 14px;
+    padding-right: 14px;
 /* when removing padding-top:100px; take border size
  and width or height into consideration and change
 those back to get accurate pixels */
@@ -59,19 +61,13 @@ the properties and values show above to customize
 the empty block */
 
 #special-paragraph { 
-    font-size: 24px;
-    font-family: "Arial";
+    font-size: 18px;
+    font-family: "Verdana";
     color: black;
     /*text-decoration:line underline overline;*/
     font-weight:bold;
     font-style: italic;
-    line-height:48px;
-   /* direction:rtl;
-    unicode-bidi:bidi-override; */
-    text-align: left;
-/* justify for text align fill sout lines 
-equally to */
-
-
-
+    line-height:20px;
+    text-align: justify;/* The justify value fills out lines 
+equally between text. */
 }
