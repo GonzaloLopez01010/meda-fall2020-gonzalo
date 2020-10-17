@@ -1,0 +1,20 @@
+.webpages{
+    font-size: 16px;
+    text-align: right;
+    font-weight: bold;
+    display: inline-block;
+    border: Black solid 1px;
+
+};
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: ;
+}
+
