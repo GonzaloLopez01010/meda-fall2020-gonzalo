@@ -12,9 +12,4 @@ header{
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr;
 }
-div {
-    width: 100px;
-    height: 100px;
-    background-color: ;
-}
 
